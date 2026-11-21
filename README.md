@@ -12,6 +12,7 @@ not.
 | `full-send` | "full send" | Takes a change to a merged PR with nobody watching: proves it, reviews it, files it, babysits it, merges it. |
 | `full-stop` | "full stop" | Same as `full-send`, but stops when the PR is ready for you to merge. |
 | `council` | "council" | Gets review from three models from different providers, and loops until they agree. |
+| `board` | "board this" | THE BOARD: three or five advisors on different providers' models score, vote and re-review any decision, draft, plan or code change. |
 | `sol-loop` | "sol loop" | Reviews a change with GPT Sol in a loop until both agents agree. |
 | `file-pr` | "file a PR" | Files a short PR that leads with the problem, not an inventory of changes. |
 | `takeover` | "take over" | Finishes someone else's PR, branch, or agent thread, and keeps their credit. |
@@ -41,6 +42,8 @@ cp -R tstack/skills/* ~/.codex/skills/    # Codex
 - `council` and `sol-loop` need subagents on other providers' models. T3 Code
   does this with `delegate_task`. Otherwise you need a harness that can run
   those models.
+- `board` works best the same way. With only one model and none named, it
+  runs its seats as distinct lenses on that model and says so.
 
 ## Make them yours
 
