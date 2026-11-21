@@ -218,9 +218,12 @@ with only optional minor improvements, 5 real problems, 3 or less wrong
 direction. Missed upside or wanted scope never lowers the score; name it as a
 follow-up.
 
+A blocking objection is something that, left alone, makes the candidate
+wrong, unsafe or likely to fail. A request for more scope is never blocking.
+
 150-300 words, no preamble. End with exactly:
 Score: N/10
-Blocking: none | <objection> -> <what would clear it>
+Blocking: none | <objection> -> <what would clear it>   (one line each)
 Follow-ups: none | <out-of-scope ideas>
 ```
 
